@@ -1,7 +1,7 @@
 # JagLang Interpreter
-Jag Lang. Just Another Great Language Interpreter made in Java. Don't ask me why its called JAG. Just dont. 
+Jag Lang. Just Another Great Language Interpreter made in Java. Don't ask me why its called JAG. Just dont.
 
-##Build Process
+## Build Process
 Process to build project:
 ```
 gradle build
