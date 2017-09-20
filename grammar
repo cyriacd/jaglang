@@ -1,0 +1,34 @@
+//first char is letter, followed by letters on numbers
+<id>
+
+//num, bool, string
+<type>
+
+//<id> of a  variable or literal (2, 2.3, true, false, "string here")
+<value>
+
+//var declaration
+var:<type> <id = name> = <value>
+
+//function
+fun:<type> <id = name> in [<type> <param>,]
+  <stmt_list>
+  return <value>
+fun:end
+
+//funcion invocation
+call:<id>( [<value>,] )
+
+//statement_list list of statments
+[<stmt>]
+
+//Statemtent var decl, function invocation, <operations>
+<stmt>
+
+//while loop
+while <cond>
+  <stmt_list>
+while:end
+
+//print statemnt
+sys:print(<value>)
